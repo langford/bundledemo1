@@ -15,6 +15,7 @@
 		89000F5C15D0CA840015EBC3 /* BEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89000F5B15D0CA840015EBC3 /* BEAppDelegate.m */; };
 		89000F5F15D0CA840015EBC3 /* BEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89000F5E15D0CA840015EBC3 /* BEViewController.m */; };
 		89000F6215D0CA840015EBC3 /* BEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89000F6015D0CA840015EBC3 /* BEViewController.xib */; };
+		89000F6915D0CB670015EBC3 /* ADifferentBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 89000F6815D0CB670015EBC3 /* ADifferentBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		89000F5D15D0CA840015EBC3 /* BEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEViewController.h; sourceTree = "<group>"; };
 		89000F5E15D0CA840015EBC3 /* BEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEViewController.m; sourceTree = "<group>"; };
 		89000F6115D0CA840015EBC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BEViewController.xib; sourceTree = "<group>"; };
+		89000F6815D0CB670015EBC3 /* ADifferentBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ADifferentBundle.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		89000F5115D0CA840015EBC3 /* ABundleInFull */ = {
 			isa = PBXGroup;
 			children = (
+				89000F6815D0CB670015EBC3 /* ADifferentBundle.bundle */,
 				89000F5A15D0CA840015EBC3 /* BEAppDelegate.h */,
 				89000F5B15D0CA840015EBC3 /* BEAppDelegate.m */,
 				89000F5D15D0CA840015EBC3 /* BEViewController.h */,
@@ -152,6 +155,7 @@
 			files = (
 				89000F5615D0CA840015EBC3 /* InfoPlist.strings in Resources */,
 				89000F6215D0CA840015EBC3 /* BEViewController.xib in Resources */,
+				89000F6915D0CB670015EBC3 /* ADifferentBundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,15 +9,17 @@
 #import "BEViewController.h"
 
 @interface BEViewController ()
-
+@property(nonatomic,weak)IBOutlet UIImageView* imageView;
 @end
 
 @implementation BEViewController
-
+@synthesize imageView;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSString *imageName = @"ADifferentBundle.bundle/AFolderInTheBundle/anglican-church_w544_h725.jpeg";
+    self.imageView.image =  [UIImage imageNamed:imageName];
 }
 
 - (void)viewDidUnload
