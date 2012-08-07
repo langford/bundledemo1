@@ -19,6 +19,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     NSString *imageName = @"ADifferentBundle.bundle/AFolderInTheBundle/anglican-church_w544_h725.jpeg";
+//    NSString *imageName = @"anglican-church_w544_h725.jpeg"; //But this line would fail (try it)
     self.imageView.image =  [UIImage imageNamed:imageName];
 }
 
